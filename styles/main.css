@@ -25,8 +25,15 @@ body {
   font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
 
-  background-color: #D8E9E4;
   color: black;
+
+  background: hsla(160, 29%, 84%, 1);
+  background: linear-gradient(270deg, hsla(160, 29%, 84%, 1) 0%, hsla(160, 30%, 96%, 1) 29%);
+  background: -moz-linear-gradient(270deg, hsla(160, 29%, 84%, 1) 0%, hsla(160, 30%, 96%, 1) 29%);
+  background: -webkit-linear-gradient(270deg, hsla(160, 29%, 84%, 1) 0%, hsla(160, 30%, 96%, 1) 29%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#CAE2DA", endColorstr="#F2F8F6", GradientType=1 );
+
+  min-height: 100vh;  /* To avoid short windows with weird gradients */
 }
 b,
 strong,
